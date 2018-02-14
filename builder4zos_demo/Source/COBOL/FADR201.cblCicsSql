@@ -8,7 +8,7 @@
       *=========================================================9000=*
       *                                                              *
       *               PROGRAMME CICS AVEC PILOTAGE INTEGRE           *
-      *                                                              *
+      *  MMO change                                                  *
       *==============================================================*
       *$XINCLUDE XGENFADR201 SPEC  4101LIBR  FADR201 STDFADR201A        INL
       *==============================================================*
@@ -108,13 +108,13 @@
       *----TRN DISPLAYING ERROR                                         00280099
                10  WS-STERROR-TRN      VALUE 'STER'        PIC  X(04).  00290099
       *----NAME OF CONTEXT/DESCRIPTOR TS                                00300099
-               10  WS-TS-CTXT-NOM      VALUE '£CTX'        PIC  X(04).  00310096
-               10  WS-TS-DSCT-NOM      VALUE '£DSC'        PIC  X(04).  00320096
+               10  WS-TS-CTXT-NOM      VALUE 'Â£CTX'        PIC  X(04).  00310096
+               10  WS-TS-DSCT-NOM      VALUE 'Â£DSC'        PIC  X(04).  00320096
       *----NAME OF TS FOR SCREEN STORAGE/RECALL                         00330099
-               10  WS-TS-PF2-NOM1      VALUE '£PF2'        PIC  X(04).  00340099
+               10  WS-TS-PF2-NOM1      VALUE 'Â£PF2'        PIC  X(04).  00340099
                10  WS-TS-PF2-NOM2      VALUE '$PF2'        PIC  X(04).  00350099
       *----NAME OF TS FOR USER'S AUTHORIZATIONS                         00360099
-               10  WS-TS-AUTO-NOM      VALUE '£AUT'        PIC  X(04).  00370099
+               10  WS-TS-AUTO-NOM      VALUE 'Â£AUT'        PIC  X(04).  00370099
       *----NAME (BY DEFAULT) OF CICS USER                               00380099
                10  WS-CICSUSER-NOM     VALUE 'CICSUSER'    PIC  X(08).  00390099
       *                                                                 00400099
@@ -593,7 +593,7 @@
       *
       *
       *  ATTENTION : TOUTES MODIFICATIONS FAITES DANS FVVAR DOIVENT
-      *              ETRE REPORTéES DANS :
+      *              ETRE REPORTÃ©ES DANS :
       *
       *              --->  'AGL.NEUGES.DB2COPY(WVARBLO)'
       *
@@ -884,7 +884,7 @@
       *
              06  FILLER.
                07  LIG6.
-      *            Nom/Prénom:
+      *            Nom/PrÃ©nom:
                    09  E-CLILNOMPREN-VAL.
                        10  E-CLILNOMPREN              PIC  X(028).
       *
@@ -895,7 +895,7 @@
                    09  E-ADRLADRE-VAL.
                        10  E-ADRLADRE                 PIC  X(032).
       *
-      *            Complément:
+      *            ComplÃ©ment:
                    09  E-ADRLVBEA-VAL.
                        10  E-ADRLVBEA                 PIC  X(032).
       *
@@ -2755,7 +2755,7 @@
       *                                                                 00790043
       *$XENDINCLUDE
            EJECT
-      *$XINCLUDE XGENFADR201 PROC  4333LIBR  FADR201 STDFADR201£%=21800 INL
+      *$XINCLUDE XGENFADR201 PROC  4333LIBR  FADR201 STDFADR201Â£%=21800 INL
       * *============================================================*
       * *    I ANALYSE MESSAGE DESCRIPTOR       GENERATED : 21-08-00 *
       * *------------------------------------------------------------*
@@ -3779,7 +3779,7 @@
       *----------------------------------------------------------------*
       * --/--/---- ! USERID  ! DESCRIPTION                             *MD----
       *----------------------------------------------------------------*
-      * 27/05/2013 ! TASPINA ! INDEPENDENCE DONNéS ET TRAITEMENTS      *MD1043
+      * 27/05/2013 ! TASPINA ! INDEPENDENCE DONNÃ©S ET TRAITEMENTS      *MD1043
       ************************************************************************
       *================================================================*
       * TRAITEMENT LOGICIEL OU PROGRAMME OU SOUS PROGRAMME FVADR2M
@@ -3951,7 +3951,7 @@
 
       * *--------------------------------------------------------------*
       * *    DECLARE, OPEN, FETCH ET CLOSE DU CURSEUR CURSDOS
-      * *             avec intention de mise à jour
+      * *             avec intention de mise Ã  jour
       * *--------------------------------------------------------------*
 
            EXEC SQL
@@ -5904,7 +5904,7 @@
       *                                                                 00530003
       *$XENDINCLUDE
            EJECT
-      *$XINCLUDE XGENFADR201 PROC  4396LIBR  FADR201 STDFADR201§%=65150 INL
+      *$XINCLUDE XGENFADR201 PROC  4396LIBR  FADR201 STDFADR201Â§%=65150 INL
       * *============================================================*
       * *           I FORCE MDT BIT             GENERATED : 21-08-00 *
       * *------------------------------------------------------------*

@@ -44,7 +44,7 @@
       * PROGRAM'S STANDARD DATA                   GENERAT.: 21-08-00 *
       *--------------------------------------------------------------*
       *
-           05  STDP-NOM-FONC     PIC X(4)  VALUE 'ADR2'.
+           05  STDP-NOM-FONC     PIC X(5)  VALUE 'ADR2'.
       *
            05  STDP-NOM-PGM      PIC X(8)  VALUE 'FADR201'.
            05  STDP-CODE-TRN     PIC X(8)  VALUE 'ADR2'.
